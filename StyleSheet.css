@@ -6,21 +6,26 @@
 }
 
 .grid-item-1 {
-    grid-column: 1/ span 12;
+    grid-column: 1/ span 6;
     grid-row: 1;
     background-color: dimgray;
     height: 50px;
 }
-
+.grid-item-1a {
+    grid-column: 7/span 6;
+    grid-row: 1;
+    background-color: dimgray;
+    height: 50px;
+}
 
 ul {
     list-style-type: none;
     height: 100%;
     background-color: dimgray;
 }
-
+li2{float: left;}
 li {
-    float: right;
+    float:right;
 }
 
     li a {
@@ -31,6 +36,15 @@ li {
         vertical-align: middle;
         text-decoration: none;
         font-size: 19px;
+    }
+    li2 a {
+        display: contents;
+        color: white;
+        margin: 15px;
+        text-align: center;
+        vertical-align: middle;
+        text-decoration: none;
+        font-size: 22px;
     }
 
 
